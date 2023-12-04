@@ -1,12 +1,12 @@
 {
-    "name": "newman-reporter-nocolor",
-    "version": "1.1.1",
-    "description": "",
+    "name": "newman-reporter-cli-nocolor",
+    "version": "1.0.1",
+    "description": "A port of the original newman cli reporter with no colors",
     "main": "lib/reporters/cli/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "Miroslava Ivanova",
     "license": "ISC",
     "dependencies": {
         "filesize": "10.0.12",
@@ -17,5 +17,15 @@
         "colors": "1.4.0",
         "chardet": "1.6.0",
         "cli-table3": "0.6.3"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MirkaIvanova/newman-reporter-cli-nocolor.git"
+    },
+    "keywords": [
+        "newman",
+        "reporter",
+        "cli",
+        "nocolor"
+    ]
 }
